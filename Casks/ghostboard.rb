@@ -1,6 +1,6 @@
 cask "ghostboard" do
-  version "0.7.5"
-  sha256 "23fb3aee2966dd8c3689ff6a389f70431bca94271c592759884c74ccb9b815ac"
+  version "0.7.6"
+  sha256 "48e710e4ecf7bbf03dfd91560f42e6e3598676dacca748c18b8a766fac5e84a8"
 
   url "https://github.com/kaushal07wick/ghostboard-releases/releases/download/v#{version}/Ghostboard-#{version}-arm64.dmg"
   name "Ghostboard"
