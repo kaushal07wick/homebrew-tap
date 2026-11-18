@@ -9,6 +9,8 @@ brew install kaushal07wick/tap/osmogrep
 osmogrep
 ```
 
+If Homebrew asks for trust first, use `brew trust --formula kaushal07wick/tap/osmogrep`.
+
 Update with `brew upgrade kaushal07wick/tap/osmogrep`. Configure your model locally or use `/login` inside the TUI. The formula uses versioned GitHub release binaries with SHA-256 verification. Intel Mac users can build from source.
 
 ## Ghostboard
