@@ -9,8 +9,8 @@ class Osmogrep < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/kaushal07wick/OsmoGrep/releases/download/v0.4.8/osmogrep-aarch64-apple-darwin.tar.gz"
-      sha256 "63844abb0ac542e512fbdf04d18638a430effad3cdae4895dbe19889f2d567f6"
+      url "https://github.com/kaushal07wick/OsmoGrep/releases/download/v0.4.9/osmogrep-aarch64-apple-darwin.tar.gz"
+      sha256 "023848197a89f13266124f8bb7c3106b4695afb59d1c989ce2d3287f1080e6de"
     end
   end
 
@@ -19,8 +19,8 @@ class Osmogrep < Formula
     depends_on arch: :x86_64
 
     on_intel do
-      url "https://github.com/kaushal07wick/OsmoGrep/releases/download/v0.4.8/osmogrep-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "54cca45921a8670349757bd6ad2b7ad72c083fce5fc4f6cb2419748abafce502"
+      url "https://github.com/kaushal07wick/OsmoGrep/releases/download/v0.4.9/osmogrep-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "58cd7cc32c044e60b0efebbb25b68864e5b6064cdf1dd192d29c43cb431d2948"
     end
   end
 
