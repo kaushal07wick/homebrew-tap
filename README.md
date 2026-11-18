@@ -1,4 +1,17 @@
-# Ghostboard for Homebrew
+# Kaushal’s Homebrew tap
+
+## OsmoGrep
+
+Terminal coding agent. Apple Silicon Mac and Linux x64; Node.js is installed as a dependency for the terminal renderer.
+
+```sh
+brew install kaushal07wick/tap/osmogrep
+osmogrep
+```
+
+Update with `brew upgrade kaushal07wick/tap/osmogrep`. Configure your model locally or use `/login` inside the TUI. The formula uses versioned GitHub release binaries with SHA-256 verification. Intel Mac users can build from source.
+
+## Ghostboard
 
 Official Homebrew cask for Ghostboard, a native Mac workspace with Ghostty terminals,
 browser tiles, files and team messaging. Requires **Apple Silicon and macOS 14+**.
