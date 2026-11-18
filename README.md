@@ -2,7 +2,7 @@
 
 ## OsmoGrep
 
-Terminal coding agent. Apple Silicon Mac and Linux x64; Node.js is installed as a dependency for the terminal renderer.
+Terminal coding agent. Apple Silicon Mac and Linux x64 (glibc 2.35+); Node.js is installed as a dependency for the terminal renderer.
 
 ```sh
 brew install kaushal07wick/tap/osmogrep

@@ -15,6 +15,7 @@ class Osmogrep < Formula
   end
 
   on_linux do
+    depends_on "alsa-lib"
     depends_on arch: :x86_64
 
     on_intel do
@@ -24,7 +25,13 @@ class Osmogrep < Formula
   end
 
   def install
-    bin.install "osmogrep"
+    if OS.linux?
+      libexec.install "osmogrep"
+      (bin/"osmogrep").write_env_script libexec/"osmogrep",
+        LD_LIBRARY_PATH: "#{formula_opt_lib("alsa-lib")}${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+    else
+      bin.install "osmogrep"
+    end
   end
 
   def caveats
